@@ -11,7 +11,7 @@ All notable changes to the **Prowler SDK** are documented in this file.
 - `cloudtrail_bedrock_logging_enabled` check for AWS provider [(#10858)](https://github.com/prowler-cloud/prowler/pull/10858)
 - Okta provider with OAuth 2.0 authentication and `signon_global_session_idle_timeout_15min` check [(#11079)](https://github.com/prowler-cloud/prowler/pull/11079)
 - `sagemaker_domain_sso_configured` check for AWS provider [(#11094)](https://github.com/prowler-cloud/prowler/pull/11094)
-- Google Workspace Groups service checks [(#11186)](https://github.com/prowler-cloud/prowler/pull/11186)
+- Google Workspace Groups service with 3 new checks [(#11186)](https://github.com/prowler-cloud/prowler/pull/11186)
 
 ### 🔄 Changed
 
