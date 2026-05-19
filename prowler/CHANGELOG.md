@@ -2,6 +2,14 @@
 
 All notable changes to the **Prowler SDK** are documented in this file.
 
+## [5.28.0] (Prowler UNRELEASED)
+
+### 🔄 Changed
+
+- AWS ECS task definition and CodeArtifact package scans are now fetched lazily with a configurable per-service resource limit (default latest 100 via `aws.max_scanned_resources_per_service`), prioritizing `FAIL` findings so non-compliant resources are never hidden before compliant ones up to the limit [(#11228)](https://github.com/prowler-cloud/prowler/pull/11228)
+
+---
+
 ## [5.27.0] (Prowler v5.27.0)
 
 ### 🚀 Added
